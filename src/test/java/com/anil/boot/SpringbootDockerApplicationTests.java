@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringbootDockerApplicationTests {
 
 	@Test
-	public  contextLoads() {
+	public int contextLoads() {
 	}
 
 }
