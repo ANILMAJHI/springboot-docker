@@ -9,6 +9,6 @@ public class HomeController {
 	@GetMapping("/view")
 	public String viewPage()
 	{
-		return "view Page here...";
+		return "view Page here integrate with docker and jenkins...";
 	}
 }
