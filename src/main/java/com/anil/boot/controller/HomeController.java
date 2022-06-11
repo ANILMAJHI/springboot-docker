@@ -11,4 +11,16 @@ public class HomeController {
 	{
 		return "view Page here...";
 	}
+	
+	@GetMapping("/info")
+	public String getDetailsInfo()
+	{
+		return "find the all the information";
+	}
+	
+	@GetMapping("/gitDev")
+	public String testGitStatus()
+	{
+		return "Marge the dev code to the master in git...";
+	}
 }
